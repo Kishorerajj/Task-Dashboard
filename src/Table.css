@@ -1,0 +1,101 @@
+/* Styles for the table */
+.bcv{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(204, 247, 247);
+    
+}
+.abc{
+    
+    text-align: center;
+    font-style: normal ;
+    position:relative;
+    color: rgb(12, 12, 12);
+}
+.bbc{
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(242, 243, 243);
+    border: 2px solid rgb(7, 7, 7);
+    
+  }
+  
+  th,
+  td {
+    border: 1px solid #929191;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: rgb(248, 71, 71);
+    color: white;
+  }
+  
+  /* Styles for the filter dropdown and checkbox */
+  div {
+    margin-top: 20px;
+  }
+  
+  select {
+    border: 1px solid #131212;
+    background-color: #fafcfa;
+    border-radius: 4px;
+    padding: 6px 10px;
+  }
+  
+  label {
+    margin-left: 20px;
+  }
+  
+  /* Styles for the loading indicator */
+  .loading {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Styles for the modal */
+  .modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+  .modal-content {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 10% auto;
+    max-width: 600px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .modal h2 {
+    margin-top: 0;
+  }
+  
+  .modal p {
+    margin-bottom: 20px;
+  }
+  
+  .modal button {
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px 20px;
+  }
+  
