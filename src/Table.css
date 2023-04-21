@@ -2,7 +2,7 @@
 .bcv{
     text-align: center;
     justify-content: center;
-    background-color: rgb(204, 247, 247);
+    background-color: white
     
 }
 .abc{
@@ -10,10 +10,12 @@
     text-align: center;
     font-style: normal ;
     position:relative;
-    color: rgb(12, 12, 12);
+    color: blue;
 }
 .bbc{
     text-align: center;
+    color: blue;
+    position: relative;
 }
 table {
     border-collapse: collapse;
@@ -32,7 +34,7 @@ table {
   }
   
   th {
-    background-color: rgb(3, 80, 247);
+    background-color: rgb(13, 13, 14);
     color: white;
   }
   
