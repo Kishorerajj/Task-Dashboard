@@ -121,7 +121,7 @@ function SpaceXLaunches() {
                   <td>{launch.launch_date_utc}</td>
                   <td>{launch.rocket.rocket_name}</td>
                   <td>{launch.launch_site.site_name_long}</td>
-                  <td>{launch.launch_success ? "Yes" : "No"}</td>
+                  <td style={{color: launch.launch_success ? "green" : "red"}}>{launch.launch_success ? "Yes" : "No"}</td>
                   <td>
                     <button onClick={() => handleLaunchClick(launch)}>
                       View Details
